@@ -1,4 +1,19 @@
 .row {
     display: flex;
     justify-content: center;
+}h1 {
+  color: ;
+  text-align: center;
+}
+
+p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+body {
+  background: Linear-Gradient (to bottom #FFFFFF, #000000);
+  margin: 0;
+  padding: 25px;
 }
