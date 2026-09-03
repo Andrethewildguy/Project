@@ -14,7 +14,7 @@ p {
 }
 
 body {
-  background: Linear-Gradient (to bottom #FFFFFF, #000000);
+  background: Linear-Gradient (Top to bottom #FFFFFF, #000000);
   margin: 0;
   padding: 25px;
 }
