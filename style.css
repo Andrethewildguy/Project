@@ -14,24 +14,10 @@ p {
 }
 
 body {
-  font: comicsans ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   background: linear-gradient(to bottom, #FFFFFF, #000000);
   margin: 0;
   padding: 25px;
   border-radius: 10px;
 }
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
