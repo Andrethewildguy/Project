@@ -42,6 +42,19 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+    }
+ .card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+  justify-content: center; 
+  flex-wrap: wrap;
+ }
+
 .flip-card {
   background-color: transparent;
   width: 500px;
@@ -82,6 +95,7 @@ body {
   transform: rotateY(180deg);
 }
 </style>
+  <div class="card-container">
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
@@ -95,6 +109,8 @@ body {
     </div>
   </div>
 </div>
+
+
 </Section>
 
 </head>
